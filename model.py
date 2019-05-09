@@ -541,7 +541,7 @@ class QASystem(object):
             _a_s2, _a_e2 = func(ypro, ypro2)
             res.append([_a_s, _a_e, _a_s2, _a_e2])
         return res
-    def evaluate_cnn(self, session, dataset, config):
+    def evaluate_cnn(self, session, dataset, config, mode):
         q, c, a, co = zip(*[[_q, _c, _a, _co] for (_q, _c, _a, _co) in dataset])
         input_feed =  self.get_feed_dict(q, c, a, co, 1.0)
 
@@ -553,7 +553,12 @@ class QASystem(object):
 
 
         gold_cnn = np.array([co for (_,_,_,co) in dataset])
-        lines = open(config.match_file,'r').readlines()
+        if mode=='test':
+            lines = open(config.test_match_file,'r').readlines()
+        else:
+            lines = open(config.dev_match_file,'r').readlines()
+
+
 
 
         sample = len(dataset)
@@ -569,6 +574,8 @@ class QASystem(object):
         f=open(config.result_file,'w')
 
         for i in range(sample):
+            if i>100:
+                break
             res={'id':i,'content':[]}
             gold_match = json.loads(lines[i].strip())['data']
             
@@ -609,7 +616,7 @@ class QASystem(object):
         f.close()
         pbar.close()
 
-        self.logger.info('%f %f %f %f %f %f\n'%(em_score, pred,pred_cnn_cnt, true_cnn_cnt, pred_match_cnt, true_match_cnt))
+        print('%f %f %f %f %f %f\n'%(em_score, pred,pred_cnn_cnt, true_cnn_cnt, pred_match_cnt, true_match_cnt))
         if pred==0:
             p=0.0
             r=0.0
@@ -618,7 +625,7 @@ class QASystem(object):
             p=pred/pred_cnn_cnt
             r=pred/true_cnn_cnt
             f1=2*p*r/(p+r)
-        self.logger.info('%f %f %f \n'%(p,r,f1))
+        print('%f %f %f \n'%(p,r,f1))
 
         if em_score == 0:
             p_all=0.0
@@ -628,10 +635,7 @@ class QASystem(object):
             p_all = em_score/pred_match_cnt
             r_all = em_score/true_match_cnt
             f1_all = 2*p_all*r_all/(p_all+r_all)
-        self.logger.info('%f\t%f\t%f\t\n'%(p_all,r_all,f1_all))
-
-
-
+        print('%f\t%f\t%f\t\n'%(p_all,r_all,f1_all))
         return f1_all
 
 
@@ -639,12 +643,7 @@ class QASystem(object):
    
 
     def run_epoch(self, session, train):
-        """
-        Perform one complete pass over the training data and evaluate on dev
-        """
-     
         nbatches = int((len(train) + self.config.batch_size - 1) / self.config.batch_size)
-        # prog = Progbar(target=nbatches)
         pbar = tqdm(total=nbatches)
         train_loss_list=[]
         cnn_loss_list=[]
@@ -653,6 +652,8 @@ class QASystem(object):
         for i, (q_batch, c_batch, a_batch, co_batch) in enumerate(minibatches(train, self.config.batch_size)):
 
             # at training time, dropout needs to be on.
+            if i>3:
+                break
             input_feed = self.get_feed_dict(q_batch, c_batch, a_batch, co_batch, self.config.dropout_val)
 
             _, train_loss,cnn_loss= session.run([self.train_op, self.loss, self.cnn_loss], feed_dict=input_feed)
@@ -662,6 +663,7 @@ class QASystem(object):
             pbar.update(1)
 
         pbar.close()
+        return sum(train_loss_list)/len(train_loss_list)
 
 
 
@@ -673,29 +675,32 @@ class QASystem(object):
             tf.gfile.MkDir(train_dir)
 
 
-        train, dev = dataset
+        train, dev, test = dataset
         self.saver.restore(session,"%s/best_model.pkl" %train_dir)
-        f1 = self.evaluate_cnn(session, dev, config)
-        # # # f1=0.0
-        self.logger.info("#-----------Initial F1 on dev set: %5.4f ---------------#" %f1)
+        f1 = self.evaluate_cnn(session, dev, config, 'dev')
+        f1 = self.evaluate_cnn(session, test, config, 'test')
+
+        print("#-----------Initial F1 on dev set: %5.4f ---------------#" %f1)
 
         best_em = f1
         # best_em = 0.0
 
         for epoch in xrange(self.config.num_epochs):
-            self.logger.info("\n*********************EPOCH: %d running %s*********************\n" %(epoch+1,config.data_name))
-            self.run_epoch(session, train)
+            print("\n*********************EPOCH: %d running %s*********************\n" %(epoch+1,config.data_name))
+            loss=self.run_epoch(session, train)
             if epoch%2==1:
 
-                em = self.evaluate_cnn(session, dev, config)
-                self.logger.info("\n#-----------Exact match on dev set: %5.4f #-----------\n" %em)
+                dev_f1 = self.evaluate_cnn(session, dev, config, 'dev')
+                f1 = self.evaluate_cnn(session, test, config, 'test')
+                self.logger.info('epoch:%d\tloss:%5.4f\tdev_f1:%5.4f\ttest_f1:%5.4f' %(epoch+1,loss,dev_f1,f1))
+                print("\n#-----------Exact match on dev set: %5.4f #-----------\n" %f1)
 
 
 
-                if (em >= best_em):
-                    self.saver.save(session, "%s/best_model.pkl" %train_dir)
-                    print('saving to :'+train_dir+'/best_model.pkl')
-                    best_em = em
-                else:
-                    print('lower=------',em,best_em)
+                # if (em >= best_em):
+                #     self.saver.save(session, "%s/best_model.pkl" %train_dir)
+                #     print('saving to :'+train_dir+'/best_model.pkl')
+                #     best_em = em
+                # else:
+                #     print('lower=------',em,best_em)
 

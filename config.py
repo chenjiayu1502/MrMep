@@ -11,7 +11,8 @@ class Config:
         self.data_dir="data/nyt_seq/"
         self.dropout_val=0.5
         self.max_length = 101
-        self.match_file = self.data_dir+'test_match_output.json'
+        self.test_match_file = self.data_dir+'test_match_output.json'
+        self.dev_match_file = self.data_dir+'dev_match_output.json'
         self.words_id2vector_filename=self.data_dir+'words_id2vector_new.json'
         self.words_number= 90761
         self.embedding_dim = 100
@@ -35,7 +36,9 @@ class Config:
     
     
         self.question_train, self.context_train, self.answer_train,self.cnn_output_train,self.cnn_list_train = self.get_paths(self.data_dir,"train")
-        self.question_dev ,self.context_dev ,self.answer_dev ,self.cnn_output_dev,self.cnn_list_dev= self.get_paths(self.data_dir,"test")
+        self.question_dev ,self.context_dev ,self.answer_dev ,self.cnn_output_dev,self.cnn_list_dev= self.get_paths(self.data_dir,"dev")
+        self.question_test ,self.context_test ,self.answer_test ,self.cnn_output_test,self.cnn_list_test= self.get_paths(self.data_dir,"test")
+
     def get_paths(self,data_dir,mode):
         question = data_dir+"%s.ids.question" %mode
         context = data_dir+"%s.ids.context" %mode
