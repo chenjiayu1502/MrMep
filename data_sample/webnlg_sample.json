@@ -1,0 +1,2069 @@
+[
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "tirstrup"
+                ],
+                "relation": "location",
+                "head": [
+                    "aarhus",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "denmark"
+                ],
+                "relation": "country",
+                "head": [
+                    "tirstrup"
+                ]
+            },
+            {
+                "tail": [
+                    "copenhagen"
+                ],
+                "relation": "capital",
+                "head": [
+                    "denmark"
+                ]
+            }
+        ],
+        "text": "aarhus airport is located in tirstrup , part of the central region of denmark which has the capital city of copenhagen"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "tirstrup"
+                ],
+                "relation": "location",
+                "head": [
+                    "aarhus",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "denmark"
+                ],
+                "relation": "country",
+                "head": [
+                    "tirstrup"
+                ]
+            },
+            {
+                "tail": [
+                    "danes"
+                ],
+                "relation": "demonym",
+                "head": [
+                    "denmark"
+                ]
+            }
+        ],
+        "text": "aarhus airport is located in tirstrup which is part of the central denmark region. the demonym for the people of denmark is danes"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "tirstrup"
+                ],
+                "relation": "location",
+                "head": [
+                    "aarhus",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "denmark"
+                ],
+                "relation": "country",
+                "head": [
+                    "tirstrup"
+                ]
+            },
+            {
+                "tail": [
+                    "central",
+                    "denmark",
+                    "region"
+                ],
+                "relation": "isPartOf",
+                "head": [
+                    "tirstrup"
+                ]
+            }
+        ],
+        "text": "aarhus airport is in tirstrup , denmark , which is in the central denmark region . th language of denmark is german"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "tirstrup"
+                ],
+                "relation": "location",
+                "head": [
+                    "aarhus",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "denmark"
+                ],
+                "relation": "country",
+                "head": [
+                    "tirstrup"
+                ]
+            },
+            {
+                "tail": [
+                    "greenlandic",
+                    "language"
+                ],
+                "relation": "language",
+                "head": [
+                    "denmark"
+                ]
+            },
+            {
+                "tail": [
+                    "central",
+                    "denmark",
+                    "region"
+                ],
+                "relation": "isPartOf",
+                "head": [
+                    "tirstrup"
+                ]
+            }
+        ],
+        "text": "the greenlandic language is spoken in denmark where aarhus airport is located in tirstrup , part of the central denmark region"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "denmark"
+                ],
+                "relation": "country",
+                "head": [
+                    "tirstrup"
+                ]
+            },
+            {
+                "tail": [
+                    "lars",
+                    "løkke",
+                    "rasmussen"
+                ],
+                "relation": "leaderName",
+                "head": [
+                    "denmark"
+                ]
+            }
+        ],
+        "text": "tirstrup is located in part of the central denmark region. tirstrup is home to aarhus airport; its leader is lars løkke rasmussen"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "tirstrup"
+                ],
+                "relation": "location",
+                "head": [
+                    "aarhus",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "denmark"
+                ],
+                "relation": "country",
+                "head": [
+                    "tirstrup"
+                ]
+            },
+            {
+                "tail": [
+                    "central",
+                    "denmark",
+                    "region"
+                ],
+                "relation": "isPartOf",
+                "head": [
+                    "tirstrup"
+                ]
+            }
+        ],
+        "text": "the location of aarhus airport is tirstrup , part of the central denmark region , in denmark where the language is dutch"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "tirstrup"
+                ],
+                "relation": "location",
+                "head": [
+                    "aarhus",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "denmark"
+                ],
+                "relation": "country",
+                "head": [
+                    "tirstrup"
+                ]
+            },
+            {
+                "tail": [
+                    "central",
+                    "denmark",
+                    "region"
+                ],
+                "relation": "isPartOf",
+                "head": [
+                    "tirstrup"
+                ]
+            }
+        ],
+        "text": "the location of aarhus airport is tirstrup which is part of the central denmark region , in denmark where one of the languages is faroese"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "tirstrup"
+                ],
+                "relation": "location",
+                "head": [
+                    "aarhus",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "denmark"
+                ],
+                "relation": "country",
+                "head": [
+                    "tirstrup"
+                ]
+            },
+            {
+                "tail": [
+                    "central",
+                    "denmark",
+                    "region"
+                ],
+                "relation": "isPartOf",
+                "head": [
+                    "tirstrup"
+                ]
+            }
+        ],
+        "text": "aarhus airport is located in tirstrup. tirstrup is part of the central denmark region in margrethe ii led denmark"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "2776.0"
+                ],
+                "relation": "runwayLength",
+                "head": [
+                    "aarhus",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "25"
+                ],
+                "relation": "elevationAboveTheSeaLevel_(in_metres)",
+                "head": [
+                    "aarhus",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "aktieselskab"
+                ],
+                "relation": "operatingOrganisation",
+                "head": [
+                    "aarhus",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "10l/28r"
+                ],
+                "relation": "runwayName",
+                "head": [
+                    "aarhus",
+                    "airport"
+                ]
+            }
+        ],
+        "text": "aktieselskab is the operating organisation for aarhus airport which is located at 25 metres above sea level. it has a runway name of 10l/28r and has a length of 2776.0"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "2776.0"
+                ],
+                "relation": "runwayLength",
+                "head": [
+                    "aarhus",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "25"
+                ],
+                "relation": "elevationAboveTheSeaLevel_(in_metres)",
+                "head": [
+                    "aarhus",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "aktieselskab"
+                ],
+                "relation": "operatingOrganisation",
+                "head": [
+                    "aarhus",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "10r/28l"
+                ],
+                "relation": "runwayName",
+                "head": [
+                    "aarhus",
+                    "airport"
+                ]
+            }
+        ],
+        "text": "aktieselskab operates aarhus airport which has an elevation of 25 metres above seal level. it also has a runway length of 2776.0 metres and a runway name , 10r/28l"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "2776.0"
+                ],
+                "relation": "runwayLength",
+                "head": [
+                    "aarhus",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "aarhus",
+                    "lufthavn",
+                    "a/s"
+                ],
+                "relation": "operatingOrganisation",
+                "head": [
+                    "aarhus",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "25"
+                ],
+                "relation": "elevationAboveTheSeaLevel_(in_metres)",
+                "head": [
+                    "aarhus",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "10l/28r"
+                ],
+                "relation": "runwayName",
+                "head": [
+                    "aarhus",
+                    "airport"
+                ]
+            }
+        ],
+        "text": "operated by aarhus lufthavn a/s , aarhus airport is 25 metres above sea level. it has a runway length of 2776.0 and the runway name , 10l/28r"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "2776.0"
+                ],
+                "relation": "runwayLength",
+                "head": [
+                    "aarhus",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "25"
+                ],
+                "relation": "elevationAboveTheSeaLevel_(in_metres)",
+                "head": [
+                    "aarhus",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "10r/28l"
+                ],
+                "relation": "runwayName",
+                "head": [
+                    "aarhus",
+                    "airport"
+                ]
+            }
+        ],
+        "text": "aarhus airport , which is 25 metres above sea level , is operated by aarhus lufthavn a/s. the runway name is 10r/28l and has a length of 2776.0"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "2777.0"
+                ],
+                "relation": "runwayLength",
+                "head": [
+                    "aarhus",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "25"
+                ],
+                "relation": "elevationAboveTheSeaLevel_(in_metres)",
+                "head": [
+                    "aarhus",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "aktieselskab"
+                ],
+                "relation": "operatingOrganisation",
+                "head": [
+                    "aarhus",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "10l/28r"
+                ],
+                "relation": "runwayName",
+                "head": [
+                    "aarhus",
+                    "airport"
+                ]
+            }
+        ],
+        "text": "aktieselskab is the operating organisation for aarhus airport which is 25 metres above sea level. the runway name is 10l/28r and has a length of 2777.0"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "2777.0"
+                ],
+                "relation": "runwayLength",
+                "head": [
+                    "aarhus",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "aarhus",
+                    "lufthavn",
+                    "a/s"
+                ],
+                "relation": "operatingOrganisation",
+                "head": [
+                    "aarhus",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "25"
+                ],
+                "relation": "elevationAboveTheSeaLevel_(in_metres)",
+                "head": [
+                    "aarhus",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "10l/28r"
+                ],
+                "relation": "runwayName",
+                "head": [
+                    "aarhus",
+                    "airport"
+                ]
+            }
+        ],
+        "text": "aarhus airport has a runway length of 2777.0 and is 25 metres above sea level. it is operated by aarhus lufthavn a/s and the runway name is 10l/28r"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "546"
+                ],
+                "relation": "elevationAboveTheSeaLevel_(in_metres)",
+                "head": [
+                    "abilene",
+                    "regional",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "17l/35r"
+                ],
+                "relation": "runwayName",
+                "head": [
+                    "abilene",
+                    "regional",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "1,121"
+                ],
+                "relation": "runwayLength",
+                "head": [
+                    "abilene",
+                    "regional",
+                    "airport"
+                ]
+            }
+        ],
+        "text": "abilene regional airport of abilene texas has a runway named 17l/35r with a 1,121 length and it is 546 above sea level"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "2194.0"
+                ],
+                "relation": "runwayLength",
+                "head": [
+                    "abilene",
+                    "regional",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "546"
+                ],
+                "relation": "elevationAboveTheSeaLevel_(in_metres)",
+                "head": [
+                    "abilene",
+                    "regional",
+                    "airport"
+                ]
+            }
+        ],
+        "text": "abilene regional airport serves abilene in texas , has a runway name of 17r/13l with a length of 2194.0 and is 546 metres above sea level"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "2,195"
+                ],
+                "relation": "runwayLength",
+                "head": [
+                    "abilene",
+                    "regional",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "546"
+                ],
+                "relation": "elevationAboveTheSeaLevel_(in_metres)",
+                "head": [
+                    "abilene",
+                    "regional",
+                    "airport"
+                ]
+            }
+        ],
+        "text": "abilene , texas is served by the abilene regional airport whose runway name is 17l/35r. the runway length of that airport is 2,195 and it is 546 meters above sea level"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "madrid"
+                ],
+                "relation": "locationCity",
+                "head": [
+                    "enaire"
+                ]
+            },
+            {
+                "tail": [
+                    "spain"
+                ],
+                "relation": "country",
+                "head": [
+                    "madrid"
+                ]
+            },
+            {
+                "tail": [
+                    "enaire"
+                ],
+                "relation": "operatingOrganisation",
+                "head": [
+                    "adolfo",
+                    "suárez",
+                    "madrid-barajas",
+                    "airport"
+                ]
+            }
+        ],
+        "text": "adolfo suárez madrid-barajas airport is in alcobendas. enaire is the operating organization for the airport. that organization is located in madrid , spain"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "madrid"
+                ],
+                "relation": "locationCity",
+                "head": [
+                    "enaire"
+                ]
+            },
+            {
+                "tail": [
+                    "spain"
+                ],
+                "relation": "country",
+                "head": [
+                    "madrid"
+                ]
+            }
+        ],
+        "text": "located at paracuellos de jarama , adolfo suarez madrid-barejas airport is operated by enaire which is in the city of madrid , in spain"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "paracuellos",
+                    "de",
+                    "jarama"
+                ],
+                "relation": "location",
+                "head": [
+                    "adolfo",
+                    "suárez",
+                    "madrid-barajas",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "madrid"
+                ],
+                "relation": "locationCity",
+                "head": [
+                    "enaire"
+                ]
+            },
+            {
+                "tail": [
+                    "enaire"
+                ],
+                "relation": "operatingOrganisation",
+                "head": [
+                    "adolfo",
+                    "suárez",
+                    "madrid-barajas",
+                    "airport"
+                ]
+            }
+        ],
+        "text": "the adolfo suárez madrid-barajas airport is in paracuellos de jarama , in spain. the adolfo suárez madrid-barajas airport is operated by enaire which is in the city of madrid"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "3500"
+                ],
+                "relation": "runwayLength",
+                "head": [
+                    "adolfo",
+                    "suárez",
+                    "madrid-barajas",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "madrid",
+                    ",",
+                    "paracuellos",
+                    "de",
+                    "jarama",
+                    ",",
+                    "san",
+                    "sebastian",
+                    "de",
+                    "los",
+                    "reyes",
+                    "and",
+                    "alcobendas"
+                ],
+                "relation": "location",
+                "head": [
+                    "adolfo",
+                    "suárez",
+                    "madrid-barajas",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "enaire"
+                ],
+                "relation": "operatingOrganisation",
+                "head": [
+                    "adolfo",
+                    "suárez",
+                    "madrid-barajas",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "14l/32r"
+                ],
+                "relation": "runwayName",
+                "head": [
+                    "adolfo",
+                    "suárez",
+                    "madrid-barajas",
+                    "airport"
+                ]
+            }
+        ],
+        "text": "located in madrid , paracuellos de jarama , san sebastian de los reyes and alcobendas , and operated by enaire , adolfo suárez madrid-barajas airport runway name is 14l/32r and its runway length is 3500"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "3500"
+                ],
+                "relation": "runwayLength",
+                "head": [
+                    "adolfo",
+                    "suarez",
+                    "madrid-barajas",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "madrid",
+                    ",",
+                    "paracuellos",
+                    "de",
+                    "jarama",
+                    ",",
+                    "san",
+                    "sebastian",
+                    "de",
+                    "los",
+                    "reyes",
+                    "and",
+                    "alcobendas"
+                ],
+                "relation": "location",
+                "head": [
+                    "adolfo",
+                    "suarez",
+                    "madrid-barajas",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "14r/32l"
+                ],
+                "relation": "runwayName",
+                "head": [
+                    "adolfo",
+                    "suarez",
+                    "madrid-barajas",
+                    "airport"
+                ]
+            }
+        ],
+        "text": "adolfo suarez madrid-barajas airport is located in madrid , paracuellos de jarama , san sebastian de los reyes and alcobendas and is operated by enaire. it has a runway name of 14r/32l with a length of 3500"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "4100.0"
+                ],
+                "relation": "runwayLength",
+                "head": [
+                    "adolfo",
+                    "suárez",
+                    "madrid-barajas",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "madrid",
+                    ",",
+                    "paracuellos",
+                    "de",
+                    "jarama",
+                    ",",
+                    "san",
+                    "sebastián",
+                    "de",
+                    "los",
+                    "reyes",
+                    "and",
+                    "alcobendas"
+                ],
+                "relation": "location",
+                "head": [
+                    "adolfo",
+                    "suárez",
+                    "madrid-barajas",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "14l/32r"
+                ],
+                "relation": "runwayName",
+                "head": [
+                    "adolfo",
+                    "suárez",
+                    "madrid-barajas",
+                    "airport"
+                ]
+            }
+        ],
+        "text": "adolfo suárez madrid-barajas airport can be found in madrid , paracuellos de jarama , san sebastián de los reyes and alcobendas and is operated by enaire. the runway name is 14l/32r with a length of 4100.0"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "4,349"
+                ],
+                "relation": "runwayLength",
+                "head": [
+                    "adolfo",
+                    "suarez",
+                    "madrid-barajas",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "madrid",
+                    ",",
+                    "paracuellos",
+                    "de",
+                    "jarama",
+                    ",",
+                    "san",
+                    "sebastián",
+                    "de",
+                    "los",
+                    "reyes",
+                    "and",
+                    "alcobendas"
+                ],
+                "relation": "location",
+                "head": [
+                    "adolfo",
+                    "suarez",
+                    "madrid-barajas",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "14l/32r"
+                ],
+                "relation": "runwayName",
+                "head": [
+                    "adolfo",
+                    "suarez",
+                    "madrid-barajas",
+                    "airport"
+                ]
+            }
+        ],
+        "text": "found in madrid , paracuellos de jarama , san sebastián de los reyes and alcobendas , adolfo suarez madrid-barajas airport is operated by enaire. it has a runway with the length of 4,349 and 14l/32r is the runway name"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "18l/36r"
+                ],
+                "relation": "runwayName",
+                "head": [
+                    "adolfo",
+                    "suárez",
+                    "madrid-barajas",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "3500"
+                ],
+                "relation": "runwayLength",
+                "head": [
+                    "adolfo",
+                    "suárez",
+                    "madrid-barajas",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "enaire"
+                ],
+                "relation": "operatingOrganisation",
+                "head": [
+                    "adolfo",
+                    "suárez",
+                    "madrid-barajas",
+                    "airport"
+                ]
+            }
+        ],
+        "text": "operated by enaire , the adolfo suárez madrid-barajas airport is in madrid. it has a runway name 18l/36r and a runway length of 3500"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "curitiba"
+                ],
+                "relation": "cityServed",
+                "head": [
+                    "afonso",
+                    "pena",
+                    "international",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "infraero"
+                ],
+                "relation": "operatingOrganisation",
+                "head": [
+                    "afonso",
+                    "pena",
+                    "international",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "sao",
+                    "jose",
+                    "dos",
+                    "pinhais"
+                ],
+                "relation": "location",
+                "head": [
+                    "afonso",
+                    "pena",
+                    "international",
+                    "airport"
+                ]
+            }
+        ],
+        "text": "the location of afonso pena international airport is sao jose dos pinhais , part of the south region of brazil. afonso pena international airport serves curitiba and is operated by infraero"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "infraero"
+                ],
+                "relation": "operatingOrganisation",
+                "head": [
+                    "afonso",
+                    "pena",
+                    "international",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "sao",
+                    "jose",
+                    "dos",
+                    "pinhais"
+                ],
+                "relation": "location",
+                "head": [
+                    "afonso",
+                    "pena",
+                    "international",
+                    "airport"
+                ]
+            }
+        ],
+        "text": "afonso pena international airport is located in sao jose dos pinhais and serves curitaba which is part of the state of parana.it is operated by infraero"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "curitiba"
+                ],
+                "relation": "cityServed",
+                "head": [
+                    "afonso",
+                    "pena",
+                    "international",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "infraero"
+                ],
+                "relation": "operatingOrganisation",
+                "head": [
+                    "afonso",
+                    "pena",
+                    "international",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "são",
+                    "josé",
+                    "dos",
+                    "pinhais"
+                ],
+                "relation": "location",
+                "head": [
+                    "afonso",
+                    "pena",
+                    "international",
+                    "airport"
+                ]
+            }
+        ],
+        "text": "afonso pena international airport in são josé dos pinhais , part of parana , serves curitiba and is operated by infraero"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "911"
+                ],
+                "relation": "elevationAboveTheSeaLevel_(in_metres)",
+                "head": [
+                    "afonso",
+                    "pena",
+                    "international",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "15/33"
+                ],
+                "relation": "runwayName",
+                "head": [
+                    "afonso",
+                    "pena",
+                    "international",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "1800"
+                ],
+                "relation": "runwayLength",
+                "head": [
+                    "afonso",
+                    "pena",
+                    "international",
+                    "airport"
+                ]
+            }
+        ],
+        "text": "afonso pena international airport is located 911 metres above sea level. it is located 911 metres above sea level , has a runaway 1800 metres long and a runway with the name , 15/33"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "911"
+                ],
+                "relation": "elevationAboveTheSeaLevel_(in_metres)",
+                "head": [
+                    "afonso",
+                    "pena",
+                    "international",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "1800"
+                ],
+                "relation": "runwayLength",
+                "head": [
+                    "afonso",
+                    "pena",
+                    "international",
+                    "airport"
+                ]
+            }
+        ],
+        "text": "afonso pena international airport is located in sao jose dos pinhais. the operating organization for the international airport is infraero. it is 1800 meters long and 911 meters above sea level"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "911.0"
+                ],
+                "relation": "elevationAboveTheSeaLevel_(in_metres)",
+                "head": [
+                    "afonso",
+                    "pena",
+                    "international",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "2215.0"
+                ],
+                "relation": "runwayLength",
+                "head": [
+                    "afonso",
+                    "pena",
+                    "international",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "infraero"
+                ],
+                "relation": "operatingOrganisation",
+                "head": [
+                    "afonso",
+                    "pena",
+                    "international",
+                    "airport"
+                ]
+            }
+        ],
+        "text": "infraero operate afonso pena international airport which is located in sao jose dos pinhais. it has a runway length of 2215.0 and is 911.0 metres above sea level"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "sao",
+                    "jose",
+                    "dos",
+                    "pinhais"
+                ],
+                "relation": "location",
+                "head": [
+                    "afonso",
+                    "pena",
+                    "international",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "911.0"
+                ],
+                "relation": "elevationAboveTheSeaLevel_(in_metres)",
+                "head": [
+                    "afonso",
+                    "pena",
+                    "international",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "11/29"
+                ],
+                "relation": "runwayName",
+                "head": [
+                    "afonso",
+                    "pena",
+                    "international",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "1800.0"
+                ],
+                "relation": "runwayLength",
+                "head": [
+                    "afonso",
+                    "pena",
+                    "international",
+                    "airport"
+                ]
+            }
+        ],
+        "text": "the location of afonso pena international airport is sao jose dos pinhais and it is located 911.0 metres above sea level. the runway name is 11/29 and it has a length of 1800.0"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "2215.0"
+                ],
+                "relation": "runwayLength",
+                "head": [
+                    "afonso",
+                    "pena",
+                    "international",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "911"
+                ],
+                "relation": "elevationAboveTheSeaLevel_(in_metres)",
+                "head": [
+                    "afonso",
+                    "pena",
+                    "international",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "são",
+                    "josé",
+                    "dos",
+                    "pinhais"
+                ],
+                "relation": "location",
+                "head": [
+                    "afonso",
+                    "pena",
+                    "international",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "11/29"
+                ],
+                "relation": "runwayName",
+                "head": [
+                    "afonso",
+                    "pena",
+                    "international",
+                    "airport"
+                ]
+            }
+        ],
+        "text": "located in são josé dos pinhais , afonso pena international airport has the elevation of 911 meters above the sea level. it also has a runway with the name 11/29 , as well as a runway length of 2215.0"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "2215.0"
+                ],
+                "relation": "runwayLength",
+                "head": [
+                    "afonso",
+                    "pena",
+                    "international",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "911"
+                ],
+                "relation": "elevationAboveTheSeaLevel_(in_metres)",
+                "head": [
+                    "afonso",
+                    "pena",
+                    "international",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "sao",
+                    "jose",
+                    "dos",
+                    "pinhais"
+                ],
+                "relation": "location",
+                "head": [
+                    "afonso",
+                    "pena",
+                    "international",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "15/33"
+                ],
+                "relation": "runwayName",
+                "head": [
+                    "afonso",
+                    "pena",
+                    "international",
+                    "airport"
+                ]
+            }
+        ],
+        "text": "afonso pena international airport is located in sao jose dos pinhais at 911 metres above sea level. the runway name is 15/33 and it has a length of 2215.0"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "agr"
+                ],
+                "relation": "IATA_Location_Identifier",
+                "head": [
+                    "agra",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "uttar",
+                    "pradesh"
+                ],
+                "relation": "location",
+                "head": [
+                    "agra",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "awadh"
+                ],
+                "relation": "isPartOf",
+                "head": [
+                    "uttar",
+                    "pradesh"
+                ]
+            },
+            {
+                "tail": [
+                    "bundelkhand"
+                ],
+                "relation": "isPartOf",
+                "head": [
+                    "uttar",
+                    "pradesh"
+                ]
+            }
+        ],
+        "text": "agr is the ata location identifier for agra airport in uttar pradesh which is part of both awadh and bundelkhand"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "viag"
+                ],
+                "relation": "ICAO_Location_Identifier",
+                "head": [
+                    "agra",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "uttar",
+                    "pradesh"
+                ],
+                "relation": "location",
+                "head": [
+                    "agra",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "awadh"
+                ],
+                "relation": "isPartOf",
+                "head": [
+                    "uttar",
+                    "pradesh"
+                ]
+            },
+            {
+                "tail": [
+                    "bundelkhand"
+                ],
+                "relation": "isPartOf",
+                "head": [
+                    "uttar",
+                    "pradesh"
+                ]
+            }
+        ],
+        "text": "agra airport has the location identifier viag and is located in awadh , uttar pradesh , bundelkhand"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "167.94"
+                ],
+                "relation": "elevationAboveTheSeaLevel_(in_metres)",
+                "head": [
+                    "agra",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "uttar",
+                    "pradesh"
+                ],
+                "relation": "location",
+                "head": [
+                    "agra",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "awadh"
+                ],
+                "relation": "isPartOf",
+                "head": [
+                    "uttar",
+                    "pradesh"
+                ]
+            },
+            {
+                "tail": [
+                    "ram",
+                    "naik"
+                ],
+                "relation": "leaderName",
+                "head": [
+                    "uttar",
+                    "pradesh"
+                ]
+            }
+        ],
+        "text": "at 167.94 metres above sea level , agra airport is in uttar pradesh  part of awadh where ram naik is the leader"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "india"
+                ],
+                "relation": "location",
+                "head": [
+                    "agra",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "agr"
+                ],
+                "relation": "IATA_Location_Identifier",
+                "head": [
+                    "agra",
+                    "airport"
+                ]
+            }
+        ],
+        "text": "the agra airport is located in india and operated by the airports authority of india. agr is the ata location id and icao is another location identifier for this airport"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "narendra",
+                    "modi"
+                ],
+                "relation": "leaderName",
+                "head": [
+                    "india"
+                ]
+            },
+            {
+                "tail": [
+                    "boeing",
+                    "c-17",
+                    "globemaster",
+                    "iii"
+                ],
+                "relation": "transportAircraft",
+                "head": [
+                    "indian",
+                    "air",
+                    "force"
+                ]
+            }
+        ],
+        "text": "the boeing c-17 globemaster iii is a transport aircraft in the indian air force who are the operating organisation of agra airport. the airport is located in india where narendra modi is the leader"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "india"
+                ],
+                "relation": "location",
+                "head": [
+                    "agra",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "indian",
+                    "air",
+                    "force"
+                ],
+                "relation": "operatingOrganisation",
+                "head": [
+                    "agra",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "boeing",
+                    "c-17",
+                    "globemaster",
+                    "iii"
+                ],
+                "relation": "transportAircraft",
+                "head": [
+                    "indian",
+                    "air",
+                    "force"
+                ]
+            }
+        ],
+        "text": "agra airport , located in india , where the leader is t s thakur , is operated by the indian air force who deploy the transport aircraft boeing c-17 globemaster iii"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "agr"
+                ],
+                "relation": "IATA_Location_Identifier",
+                "head": [
+                    "agra",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "viag"
+                ],
+                "relation": "ICAO_Location_Identifier",
+                "head": [
+                    "agra",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "airports",
+                    "authority",
+                    "of",
+                    "india"
+                ],
+                "relation": "operatingOrganisation",
+                "head": [
+                    "agra",
+                    "airport"
+                ]
+            }
+        ],
+        "text": "agra airport , with the icao location identifier of viag , is located in uttar pradesh. the iata i.d of the airport is agr and the operating organisation is the airports authority of india"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "uttar",
+                    "pradesh"
+                ],
+                "relation": "location",
+                "head": [
+                    "agra",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "airports",
+                    "authority",
+                    "of",
+                    "india"
+                ],
+                "relation": "operatingOrganisation",
+                "head": [
+                    "agra",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "awadh"
+                ],
+                "relation": "isPartOf",
+                "head": [
+                    "uttar",
+                    "pradesh"
+                ]
+            }
+        ],
+        "text": "agra airport is in uttar pradesh which is ni turn part of both awadh and bundelkhand. the airports authority of india is the operating organisation of agra airport"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "uttar",
+                    "pradesh"
+                ],
+                "relation": "location",
+                "head": [
+                    "agra",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "agr"
+                ],
+                "relation": "IATA_Location_Identifier",
+                "head": [
+                    "agra",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "viag"
+                ],
+                "relation": "ICAO_Location_Identifier",
+                "head": [
+                    "agra",
+                    "airport"
+                ]
+            }
+        ],
+        "text": "agra airport is in uttar pradesh and is operated by the indian air force. it has two type of identifiers , its ata location identifier is agr and its icao location identifier is viag"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "boeing",
+                    "c-17",
+                    "globemaster",
+                    "iii"
+                ],
+                "relation": "transportAircraft",
+                "head": [
+                    "indian",
+                    "air",
+                    "force"
+                ]
+            },
+            {
+                "tail": [
+                    "bundelkhand"
+                ],
+                "relation": "isPartOf",
+                "head": [
+                    "uttar",
+                    "pradesh"
+                ]
+            }
+        ],
+        "text": "part of bundelkhand , uttar pradesh is the location of agra airport. it is operated by the indian air force which uses the transport aircraft called the boeing c-17 globemaster iii"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "uttar",
+                    "pradesh"
+                ],
+                "relation": "location",
+                "head": [
+                    "agra",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "awadh"
+                ],
+                "relation": "isPartOf",
+                "head": [
+                    "uttar",
+                    "pradesh"
+                ]
+            },
+            {
+                "tail": [
+                    "indian",
+                    "air",
+                    "force"
+                ],
+                "relation": "operatingOrganisation",
+                "head": [
+                    "agra",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "boeing",
+                    "c-17",
+                    "globemaster",
+                    "iii"
+                ],
+                "relation": "transportAircraft",
+                "head": [
+                    "indian",
+                    "air",
+                    "force"
+                ]
+            }
+        ],
+        "text": "the boeing c-17 globemaster iii is a transport aircraft for the indian air force who operates agra airport in uttar pradesh in awadh"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "uttar",
+                    "pradesh"
+                ],
+                "relation": "location",
+                "head": [
+                    "agra",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "awadh"
+                ],
+                "relation": "isPartOf",
+                "head": [
+                    "uttar",
+                    "pradesh"
+                ]
+            },
+            {
+                "tail": [
+                    "indian",
+                    "air",
+                    "force"
+                ],
+                "relation": "operatingOrganisation",
+                "head": [
+                    "agra",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "bundelkhand"
+                ],
+                "relation": "isPartOf",
+                "head": [
+                    "uttar",
+                    "pradesh"
+                ]
+            }
+        ],
+        "text": "operated by the indian air force , agra airport is in uttar pradesh which is part of both awadh and bundelkhand"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "uttar",
+                    "pradesh"
+                ],
+                "relation": "location",
+                "head": [
+                    "agra",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "ram",
+                    "naik"
+                ],
+                "relation": "leaderName",
+                "head": [
+                    "uttar",
+                    "pradesh"
+                ]
+            },
+            {
+                "tail": [
+                    "indian",
+                    "air",
+                    "force"
+                ],
+                "relation": "operatingOrganisation",
+                "head": [
+                    "agra",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "boeing",
+                    "c-17",
+                    "globemaster",
+                    "iii"
+                ],
+                "relation": "transportAircraft",
+                "head": [
+                    "indian",
+                    "air",
+                    "force"
+                ]
+            }
+        ],
+        "text": "ram naik is the leader of uttar pradesh where agra airport is situated. the operating organization for the airport is the indian air force who deploy the boeing c-17 globemaster iii transport aircraft"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "airports",
+                    "authority",
+                    "of",
+                    "india"
+                ],
+                "relation": "operatingOrganisation",
+                "head": [
+                    "agra",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "agr"
+                ],
+                "relation": "IATA_Location_Identifier",
+                "head": [
+                    "agra",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "agra"
+                ],
+                "relation": "location",
+                "head": [
+                    "agra",
+                    "airport"
+                ]
+            }
+        ],
+        "text": "located in agra , agra airport has the iata location identifier is agr and its icao location identifierviag. this airport is operated by the airports authority of india"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "indian",
+                    "air",
+                    "force"
+                ],
+                "relation": "operatingOrganisation",
+                "head": [
+                    "agra",
+                    "airport"
+                ]
+            },
+            {
+                "tail": [
+                    "viag"
+                ],
+                "relation": "ICAO_Location_Identifier",
+                "head": [
+                    "agra",
+                    "airport"
+                ]
+            }
+        ],
+        "text": "the indian air force operate agra airport which is in agra. it has several identifiers such as its icao location identifier which is viag , or the iata i.d. which isagr"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "4019"
+                ],
+                "relation": "runwayLength",
+                "head": [
+                    "al-taqaddum",
+                    "air",
+                    "base"
+                ]
+            },
+            {
+                "tail": [
+                    "fallujah"
+                ],
+                "relation": "cityServed",
+                "head": [
+                    "al-taqaddum",
+                    "air",
+                    "base"
+                ]
+            },
+            {
+                "tail": [
+                    "84"
+                ],
+                "relation": "elevationAboveTheSeaLevel_(in_metres)",
+                "head": [
+                    "al-taqaddum",
+                    "air",
+                    "base"
+                ]
+            }
+        ],
+        "text": "al-taqaddum air base serves the city of fallujah and is located in habbaniyah. the airbase is 84 metres above sea level and has a runway length of 4019"
+    },
+    {
+        "triplets": [
+            {
+                "tail": [
+                    "united",
+                    "states",
+                    "air",
+                    "force"
+                ],
+                "relation": "operatingOrganisation",
+                "head": [
+                    "al",
+                    "asad",
+                    "airbase"
+                ]
+            },
+            {
+                "tail": [
+                    "08/26"
+                ],
+                "relation": "runwayName",
+                "head": [
+                    "al",
+                    "asad",
+                    "airbase"
+                ]
+            },
+            {
+                "tail": [
+                    "3078.48"
+                ],
+                "relation": "runwayLength",
+                "head": [
+                    "al",
+                    "asad",
+                    "airbase"
+                ]
+            }
+        ],
+        "text": "the united states air force is the operating organisation for al asad airbase in al anbar province , iraq. the runway name is 08/26 and it has a length of 3078.48"
+    }
+]
