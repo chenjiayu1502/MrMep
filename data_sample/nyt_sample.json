@@ -1,0 +1,1548 @@
+[
+    {
+        "text": "In Queens , North Shore Towers , near the Nassau border , supplanted a golf course , and housing replaced a gravel quarry in Douglaston .",
+        "triplets": [
+            {
+                "head": [
+                    "Douglaston"
+                ],
+                "relation": "/location/neighborhood/neighborhood_of",
+                "tail": [
+                    "Queens"
+                ]
+            },
+            {
+                "head": [
+                    "Queens"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Douglaston"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Martha Whitney Bagnall , the daughter of Whitney S. Bagnall and Roger S. Bagnall of New York , is to be married today in Rhinebeck , N.Y. , to Edward Bing Han , the son of Chou-Yeen Han and Bing-Hou Han of Hopewell Junction , N.Y. Lynn Tomalas , a Universal Life minister , is to officiate at the Wilderstein Preservation , a historic house on the Hudson River .",
+        "triplets": [
+            {
+                "head": [
+                    "New",
+                    "York"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Rhinebeck"
+                ]
+            },
+            {
+                "head": [
+                    "New",
+                    "York"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Hopewell",
+                    "Junction"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Russia has been holding up an entry visa to William F. Browder , who controls a $ 4 billion hedge fund in Moscow and is the largest foreign investor in the country 's stock market .",
+        "triplets": [
+            {
+                "head": [
+                    "Russia"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Moscow"
+                ]
+            },
+            {
+                "head": [
+                    "Russia"
+                ],
+                "relation": "/location/country/capital",
+                "tail": [
+                    "Moscow"
+                ]
+            },
+            {
+                "head": [
+                    "Russia"
+                ],
+                "relation": "/location/country/administrative_divisions",
+                "tail": [
+                    "Moscow"
+                ]
+            },
+            {
+                "head": [
+                    "Moscow"
+                ],
+                "relation": "/location/administrative_division/country",
+                "tail": [
+                    "Russia"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "For much of the three years since the show first opened at Yale , Peru 's claim on the objects has been played out in behind-the-scenes talks in Lima , Washington and New Haven between Yale and the government of President Alejandro Toledo .",
+        "triplets": [
+            {
+                "head": [
+                    "Alejandro",
+                    "Toledo"
+                ],
+                "relation": "/people/person/nationality",
+                "tail": [
+                    "Peru"
+                ]
+            },
+            {
+                "head": [
+                    "Peru"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Lima"
+                ]
+            },
+            {
+                "head": [
+                    "Peru"
+                ],
+                "relation": "/location/country/capital",
+                "tail": [
+                    "Lima"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Yale is assuming that it owns the collection , and can negotiate with us which objects it wants to return and which it wants to keep , '' Luis Guillermo Lumbreras , director of Peru 's National Institute of Culture in Lima , said in a telephone interview . ''",
+        "triplets": [
+            {
+                "head": [
+                    "Peru"
+                ],
+                "relation": "/location/country/capital",
+                "tail": [
+                    "Lima"
+                ]
+            },
+            {
+                "head": [
+                    "Peru"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Lima"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Last month , Dublin , Copenhagen , Munich , Stockholm and Berlin were added to the site bringing the lodging count up to about 600 cheapo places in Europe .",
+        "triplets": [
+            {
+                "head": [
+                    "Europe"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Munich"
+                ]
+            },
+            {
+                "head": [
+                    "Europe"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Berlin"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "But at least 20 cities in Norway have longer nights than Oslo .",
+        "triplets": [
+            {
+                "head": [
+                    "Oslo"
+                ],
+                "relation": "/location/administrative_division/country",
+                "tail": [
+                    "Norway"
+                ]
+            },
+            {
+                "head": [
+                    "Norway"
+                ],
+                "relation": "/location/country/capital",
+                "tail": [
+                    "Oslo"
+                ]
+            },
+            {
+                "head": [
+                    "Norway"
+                ],
+                "relation": "/location/country/administrative_divisions",
+                "tail": [
+                    "Oslo"
+                ]
+            },
+            {
+                "head": [
+                    "Norway"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Oslo"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "What 's been missing in Washington in the last few months -- to say nothing of capitals in Asia and Europe -- is clear language about what the world is ready to do if Iran and North Korea follow the path of India and Pakistan .",
+        "triplets": [
+            {
+                "head": [
+                    "Asia"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Iran"
+                ]
+            },
+            {
+                "head": [
+                    "Asia"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "India"
+                ]
+            },
+            {
+                "head": [
+                    "Asia"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Pakistan"
+                ]
+            },
+            {
+                "head": [
+                    "Asia"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "North",
+                    "Korea"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "The New Jersey Devils gave Newark officials a $ 100 million irrevocable letter of credit yesterday to meet the requirements of the team 's deal with the city to build a $ 310 million arena .",
+        "triplets": [
+            {
+                "head": [
+                    "New",
+                    "Jersey",
+                    "Devils"
+                ],
+                "relation": "/sports/sports_team/location",
+                "tail": [
+                    "Newark"
+                ]
+            },
+            {
+                "head": [
+                    "Newark"
+                ],
+                "relation": "/sports/sports_team_location/teams",
+                "tail": [
+                    "New",
+                    "Jersey",
+                    "Devils"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "The remains of the Halat-Fidar bridge in Lebanon , on Aug. 4 , hours after Israeli airstrikes destroyed it and several other bridges along the main highway north of Beirut .",
+        "triplets": [
+            {
+                "head": [
+                    "Lebanon"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Beirut"
+                ]
+            },
+            {
+                "head": [
+                    "Lebanon"
+                ],
+                "relation": "/location/country/capital",
+                "tail": [
+                    "Beirut"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Her projects included the Paris Theatre , New York ; the Caribe Hilton , San Juan , Puerto Rico ; Bonniers Retail Store , New York ; Earth Sciences Building , MIT , Cambridge , Mass . ; '' Resources for Man '' Pavilion , EXPO 67 , Montreal ; Campus Center , University of Massachusetts , Amherst .",
+        "triplets": [
+            {
+                "head": [
+                    "Puerto",
+                    "Rico"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "San",
+                    "Juan"
+                ]
+            },
+            {
+                "head": [
+                    "Puerto",
+                    "Rico"
+                ],
+                "relation": "/location/country/capital",
+                "tail": [
+                    "San",
+                    "Juan"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "In Connecticut , Storrs , Windsor Locks and North Haven are among the fastest aging .",
+        "triplets": [
+            {
+                "head": [
+                    "Connecticut"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "North",
+                    "Haven"
+                ]
+            },
+            {
+                "head": [
+                    "Connecticut"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Windsor",
+                    "Locks"
+                ]
+            },
+            {
+                "head": [
+                    "Connecticut"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Storrs"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Milton Shapiro , an 85-year-old former teacher who raised children in Teaneck , N.J. , moved to Manhattan when he retired in 1996 and lives by himself in an apartment house on the Upper West Side . ''",
+        "triplets": [
+            {
+                "head": [
+                    "Upper",
+                    "West",
+                    "Side"
+                ],
+                "relation": "/location/neighborhood/neighborhood_of",
+                "tail": [
+                    "Manhattan"
+                ]
+            },
+            {
+                "head": [
+                    "Manhattan"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Upper",
+                    "West",
+                    "Side"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Old Bethpage , Commack , East Meadow and Levittown have seen their over-65 populations triple since 1970 , as have New Jersey towns like Paramus , South Plainfield , Manville , Bellmawr and Strathmore .",
+        "triplets": [
+            {
+                "head": [
+                    "New",
+                    "Jersey"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Paramus"
+                ]
+            },
+            {
+                "head": [
+                    "New",
+                    "Jersey"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "South",
+                    "Plainfield"
+                ]
+            },
+            {
+                "head": [
+                    "New",
+                    "Jersey"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Manville"
+                ]
+            },
+            {
+                "head": [
+                    "New",
+                    "Jersey"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Bellmawr"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "NEFF -- Mary V. , formerly of Astoria , Queens on December 22 , 2006 .",
+        "triplets": [
+            {
+                "head": [
+                    "Queens"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Astoria"
+                ]
+            },
+            {
+                "head": [
+                    "Astoria"
+                ],
+                "relation": "/location/neighborhood/neighborhood_of",
+                "tail": [
+                    "Queens"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "At one Brooklyn school , St. Finbar in Bath Beach , parents spent the day cold-calling potential corporate sponsors . ''",
+        "triplets": [
+            {
+                "head": [
+                    "Bath",
+                    "Beach"
+                ],
+                "relation": "/location/neighborhood/neighborhood_of",
+                "tail": [
+                    "Brooklyn"
+                ]
+            },
+            {
+                "head": [
+                    "Brooklyn"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Bath",
+                    "Beach"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "In the late 1980 's and early 90 's , breakout stars like Linda Evangelista , Yasmeen Ghauri and Shalom Harlow helped put Canada on the fashion map .",
+        "triplets": [
+            {
+                "head": [
+                    "Linda",
+                    "Evangelista"
+                ],
+                "relation": "/people/person/nationality",
+                "tail": [
+                    "Canada"
+                ]
+            },
+            {
+                "head": [
+                    "Shalom",
+                    "Harlow"
+                ],
+                "relation": "/people/person/nationality",
+                "tail": [
+                    "Canada"
+                ]
+            },
+            {
+                "head": [
+                    "Yasmeen",
+                    "Ghauri"
+                ],
+                "relation": "/people/person/nationality",
+                "tail": [
+                    "Canada"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Or as Heather Marks , the 17-year-old Vogue favorite from Calgary , puts it : '' It could be that Canada is just having a moment like Brazil and Russia did .",
+        "triplets": [
+            {
+                "head": [
+                    "Heather",
+                    "Marks"
+                ],
+                "relation": "/people/person/place_of_birth",
+                "tail": [
+                    "Calgary"
+                ]
+            },
+            {
+                "head": [
+                    "Canada"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Calgary"
+                ]
+            },
+            {
+                "head": [
+                    "Heather",
+                    "Marks"
+                ],
+                "relation": "/people/person/nationality",
+                "tail": [
+                    "Canada"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Shiites ' Role Deepens ; Envoy Is Threatened Basra , in southern Iraq , far from the insurgency , is being transformed into a Shiite mini-theocracy , forming a flash point because the political parties in Basra also wield significant influence in Baghdad .",
+        "triplets": [
+            {
+                "head": [
+                    "Iraq"
+                ],
+                "relation": "/location/country/capital",
+                "tail": [
+                    "Baghdad"
+                ]
+            },
+            {
+                "head": [
+                    "Iraq"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Basra"
+                ]
+            },
+            {
+                "head": [
+                    "Iraq"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Baghdad"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "The complaint , filed in State Supreme Court in Manhattan by the New York attorney general and the New York insurance superintendent , details various transactions initiated or overseen by the former chief executive , Maurice R. Greenberg , that were intended to make the underwriting business look stronger than it was .",
+        "triplets": [
+            {
+                "head": [
+                    "Maurice",
+                    "R.",
+                    "Greenberg"
+                ],
+                "relation": "/people/person/place_of_birth",
+                "tail": [
+                    "New",
+                    "York"
+                ]
+            },
+            {
+                "head": [
+                    "New",
+                    "York"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Manhattan"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "There was n't much love lost between Athens and Sparta , the two most important city-states of ancient Greece .",
+        "triplets": [
+            {
+                "head": [
+                    "Greece"
+                ],
+                "relation": "/location/country/capital",
+                "tail": [
+                    "Athens"
+                ]
+            },
+            {
+                "head": [
+                    "Greece"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Sparta"
+                ]
+            },
+            {
+                "head": [
+                    "Greece"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Athens"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "I think federalism is a very civilized way of governing , but in Iraq it could lead to separation , '' said Ahmed Sulaiman , 53 , who owns a market in the heavily Sunni Adhamiya neighborhood of Baghdad .",
+        "triplets": [
+            {
+                "head": [
+                    "Iraq"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Baghdad"
+                ]
+            },
+            {
+                "head": [
+                    "Iraq"
+                ],
+                "relation": "/location/country/capital",
+                "tail": [
+                    "Baghdad"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "The moves by Citigroup and Deutsche Bank are only the latest illustrations of the difficulty of retaining jobs in New York City and rebuilding the business district in Lower Manhattan .",
+        "triplets": [
+            {
+                "head": [
+                    "Lower",
+                    "Manhattan"
+                ],
+                "relation": "/location/neighborhood/neighborhood_of",
+                "tail": [
+                    "New",
+                    "York",
+                    "City"
+                ]
+            },
+            {
+                "head": [
+                    "Citigroup"
+                ],
+                "relation": "/business/company/place_founded",
+                "tail": [
+                    "New",
+                    "York",
+                    "City"
+                ]
+            },
+            {
+                "head": [
+                    "New",
+                    "York",
+                    "City"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Lower",
+                    "Manhattan"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Although China has joined the United States in partnership to press for a resumption of six-party talks to end North Korea 's nuclear weapons program after its recent test , Taiwan remains a potential flash point between Beijing and Washington .",
+        "triplets": [
+            {
+                "head": [
+                    "China"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Beijing"
+                ]
+            },
+            {
+                "head": [
+                    "China"
+                ],
+                "relation": "/location/country/capital",
+                "tail": [
+                    "Beijing"
+                ]
+            },
+            {
+                "head": [
+                    "China"
+                ],
+                "relation": "/location/country/administrative_divisions",
+                "tail": [
+                    "Beijing"
+                ]
+            },
+            {
+                "head": [
+                    "China"
+                ],
+                "relation": "/location/country/administrative_divisions",
+                "tail": [
+                    "Taiwan"
+                ]
+            },
+            {
+                "head": [
+                    "Taiwan"
+                ],
+                "relation": "/location/administrative_division/country",
+                "tail": [
+                    "China"
+                ]
+            },
+            {
+                "head": [
+                    "Beijing"
+                ],
+                "relation": "/location/administrative_division/country",
+                "tail": [
+                    "China"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "It is always amazing to see , as this exhibition once more demonstrates , the extent to which Dali absorbed Surrealism 's tenets while still in Spain , reading Freud word for word , devouring special magazines and catalogs from Paris and also studying firsthand the work of the original Surrealist , Hieronymus Bosch , which he saw at the Prado while studying art in Madrid .",
+        "triplets": [
+            {
+                "head": [
+                    "Spain"
+                ],
+                "relation": "/location/country/capital",
+                "tail": [
+                    "Madrid"
+                ]
+            },
+            {
+                "head": [
+                    "Spain"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Madrid"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "The agency has long been concerned about the Arak reactor , which is being built in the desert southwest of Tehran , and has repeatedly asked Iran to abandon the project .",
+        "triplets": [
+            {
+                "head": [
+                    "Iran"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Tehran"
+                ]
+            },
+            {
+                "head": [
+                    "Iran"
+                ],
+                "relation": "/location/country/capital",
+                "tail": [
+                    "Tehran"
+                ]
+            },
+            {
+                "head": [
+                    "Iran"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Arak"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "One of the most brutal tyrants of recent history , Saddam Hussein unleashed devastating regional wars and reduced oil-rich Iraq to a claustrophobic police state .",
+        "triplets": [
+            {
+                "head": [
+                    "Saddam",
+                    "Hussein"
+                ],
+                "relation": "/people/person/place_of_birth",
+                "tail": [
+                    "Iraq"
+                ]
+            },
+            {
+                "head": [
+                    "Saddam",
+                    "Hussein"
+                ],
+                "relation": "/people/person/nationality",
+                "tail": [
+                    "Iraq"
+                ]
+            },
+            {
+                "head": [
+                    "Saddam",
+                    "Hussein"
+                ],
+                "relation": "/people/deceased_person/place_of_death",
+                "tail": [
+                    "Iraq"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Seven years old when the Germans invaded France in 1940 , Isaac Sztrymfman was the only child of Polish-Jewish emigres who made a home in a Jewish neighborhood in Paris .",
+        "triplets": [
+            {
+                "head": [
+                    "France"
+                ],
+                "relation": "/location/country/capital",
+                "tail": [
+                    "Paris"
+                ]
+            },
+            {
+                "head": [
+                    "France"
+                ],
+                "relation": "/location/country/administrative_divisions",
+                "tail": [
+                    "Paris"
+                ]
+            },
+            {
+                "head": [
+                    "France"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Paris"
+                ]
+            },
+            {
+                "head": [
+                    "Paris"
+                ],
+                "relation": "/location/administrative_division/country",
+                "tail": [
+                    "France"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "He contemplated buying a brownstone in Bedford Stuyvesant , but decided he wanted more amenities and set his sights on new construction condos in Dumbo , Williamsburg , Brooklyn Heights and downtown Brooklyn .",
+        "triplets": [
+            {
+                "head": [
+                    "Brooklyn",
+                    "Heights"
+                ],
+                "relation": "/location/neighborhood/neighborhood_of",
+                "tail": [
+                    "Brooklyn"
+                ]
+            },
+            {
+                "head": [
+                    "Brooklyn"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Brooklyn",
+                    "Heights"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "In response to bipartisan political uproar , Dubai Ports World , which is controlled by the emir of Dubai , part of the United Arab Emirates , asked the Bush administration on Sunday to conduct the full 45-day review that an interagency panel deemed unnecessary last month .",
+        "triplets": [
+            {
+                "head": [
+                    "United",
+                    "Arab",
+                    "Emirates"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Dubai"
+                ]
+            },
+            {
+                "head": [
+                    "Dubai"
+                ],
+                "relation": "/location/administrative_division/country",
+                "tail": [
+                    "United",
+                    "Arab",
+                    "Emirates"
+                ]
+            },
+            {
+                "head": [
+                    "United",
+                    "Arab",
+                    "Emirates"
+                ],
+                "relation": "/location/country/administrative_divisions",
+                "tail": [
+                    "Dubai"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "The Chinese ambassador to Australia , Fu Ying , last year went to the state of South Australia and visited the Olympic Dam uranium mine , which is owned by BHP Billiton , the world 's largest mining company .",
+        "triplets": [
+            {
+                "head": [
+                    "Australia"
+                ],
+                "relation": "/location/country/administrative_divisions",
+                "tail": [
+                    "South",
+                    "Australia"
+                ]
+            },
+            {
+                "head": [
+                    "Australia"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "South",
+                    "Australia"
+                ]
+            },
+            {
+                "head": [
+                    "South",
+                    "Australia"
+                ],
+                "relation": "/location/administrative_division/country",
+                "tail": [
+                    "Australia"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Charlie LeDuff 's WORK AND OTHER SINS : Life in New York City and Thereabouts -LRB- Penguin , $ 15 -RRB- is a blunt and touching assortment of articles , written for The Times , that portray a city of faltering dreams , sadness and wit , often expressed in the crowded bars of Brooklyn and Manhattan .",
+        "triplets": [
+            {
+                "head": [
+                    "New",
+                    "York",
+                    "City"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Manhattan"
+                ]
+            },
+            {
+                "head": [
+                    "New",
+                    "York",
+                    "City"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Brooklyn"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "At St. Stanislaus Kostka Church in Greenpoint , Brooklyn , where Karol Wojtyla visited before he became Pope John Paul II , people lined the church 's steps to hear the 10 a.m. Mass in Polish .",
+        "triplets": [
+            {
+                "head": [
+                    "Brooklyn"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Greenpoint"
+                ]
+            },
+            {
+                "head": [
+                    "Greenpoint"
+                ],
+                "relation": "/location/neighborhood/neighborhood_of",
+                "tail": [
+                    "Brooklyn"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "He is a son of Jean and John C. Friedmann of Princeton , N.J. His mother edits book reviews for Wellesley magazine , the alumnae publication for Wellesley College in Massachusetts .",
+        "triplets": [
+            {
+                "head": [
+                    "Massachusetts"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Wellesley"
+                ]
+            },
+            {
+                "head": [
+                    "Wellesley"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Wellesley",
+                    "College"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Then in March 2000 , he made one of his most dramatic trips , a six-day valedictory journey to Jordan , Israel and Palestinian-held territories that saw the 79-year-old pope , frail with infirmities , step nimbly through the political and religious minefields of the Middle East , a capstone of his papal travels .",
+        "triplets": [
+            {
+                "head": [
+                    "Middle",
+                    "East"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Jordan"
+                ]
+            },
+            {
+                "head": [
+                    "Middle",
+                    "East"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Israel"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "A8 Fears of a Militant Japan in Asia President Roh Moo Hyun of South Korea personally urged Prime Minister Junichiro Koizumi of Japan to stop visiting a nationalistic Japanese war memorial , saying the visits raised fears of a revival of Japanese militarism .",
+        "triplets": [
+            {
+                "head": [
+                    "Asia"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Japan"
+                ]
+            },
+            {
+                "head": [
+                    "Asia"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "South",
+                    "Korea"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "He graduated from Worcester Polytechnic Institute and was in the Peace Corps from 1991 to 1993 , serving as an assistant livestock officer and agricultural adviser for Portland Parish in Port Antonio , Jamaica .",
+        "triplets": [
+            {
+                "head": [
+                    "Portland",
+                    "Parish"
+                ],
+                "relation": "/location/administrative_division/country",
+                "tail": [
+                    "Jamaica"
+                ]
+            },
+            {
+                "head": [
+                    "Jamaica"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Port",
+                    "Antonio"
+                ]
+            },
+            {
+                "head": [
+                    "Portland",
+                    "Parish"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Port",
+                    "Antonio"
+                ]
+            },
+            {
+                "head": [
+                    "Jamaica"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Portland",
+                    "Parish"
+                ]
+            },
+            {
+                "head": [
+                    "Jamaica"
+                ],
+                "relation": "/location/country/administrative_divisions",
+                "tail": [
+                    "Portland",
+                    "Parish"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "8 p.m. , Warsaw , 261 Driggs Avenue , Greenpoint , Brooklyn , ( 718 ) 387-0505 , $ 14 .",
+        "triplets": [
+            {
+                "head": [
+                    "Brooklyn"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Greenpoint"
+                ]
+            },
+            {
+                "head": [
+                    "Greenpoint"
+                ],
+                "relation": "/location/neighborhood/neighborhood_of",
+                "tail": [
+                    "Brooklyn"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "He was hanging out on the streets of Maspeth , Queens , with a group of friends , waiting for the cover of night to begin the festivities with a boom .",
+        "triplets": [
+            {
+                "head": [
+                    "Maspeth"
+                ],
+                "relation": "/location/neighborhood/neighborhood_of",
+                "tail": [
+                    "Queens"
+                ]
+            },
+            {
+                "head": [
+                    "Queens"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Maspeth"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "When I was in Hartford -- way back when Ella Grasso and William O'Neill were the governors -- the politicians had a terrible inferiority complex .",
+        "triplets": [
+            {
+                "head": [
+                    "William",
+                    "O'Neill"
+                ],
+                "relation": "/people/person/place_lived",
+                "tail": [
+                    "Hartford"
+                ]
+            },
+            {
+                "head": [
+                    "William",
+                    "O'Neill"
+                ],
+                "relation": "/people/person/place_of_birth",
+                "tail": [
+                    "Hartford"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "That 's why Arnold Schwarzenegger runs California now .",
+        "triplets": [
+            {
+                "head": [
+                    "Arnold",
+                    "Schwarzenegger"
+                ],
+                "relation": "/business/person/company",
+                "tail": [
+                    "California"
+                ]
+            },
+            {
+                "head": [
+                    "Arnold",
+                    "Schwarzenegger"
+                ],
+                "relation": "/people/person/place_lived",
+                "tail": [
+                    "California"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Tehran is also understandably distrustful of Iraq 's Sunni nationalists , having fought a long and costly war against Saddam Hussein 's regime in the 1980 's .",
+        "triplets": [
+            {
+                "head": [
+                    "Saddam",
+                    "Hussein"
+                ],
+                "relation": "/people/person/nationality",
+                "tail": [
+                    "Iraq"
+                ]
+            },
+            {
+                "head": [
+                    "Saddam",
+                    "Hussein"
+                ],
+                "relation": "/people/person/place_of_birth",
+                "tail": [
+                    "Iraq"
+                ]
+            },
+            {
+                "head": [
+                    "Saddam",
+                    "Hussein"
+                ],
+                "relation": "/people/deceased_person/place_of_death",
+                "tail": [
+                    "Iraq"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "A7 In an unusual public rebuke , President Jalal Talabani angrily criticized other Arab states , saying they had insulted Iraq by not sending diplomats to Baghdad and had not sent condolence letters about the stampede last week in which almost 1,000 Shiite pilgrims were killed .",
+        "triplets": [
+            {
+                "head": [
+                    "Iraq"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Baghdad"
+                ]
+            },
+            {
+                "head": [
+                    "Iraq"
+                ],
+                "relation": "/location/country/capital",
+                "tail": [
+                    "Baghdad"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "As a high school English teacher , Mr. Beerman teaches the literature of '' the quest '' to freshmen at Automotive High School in Greenpoint , Brooklyn .",
+        "triplets": [
+            {
+                "head": [
+                    "Brooklyn"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Greenpoint"
+                ]
+            },
+            {
+                "head": [
+                    "Greenpoint"
+                ],
+                "relation": "/location/neighborhood/neighborhood_of",
+                "tail": [
+                    "Brooklyn"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Reposing at Thomas M. Quinn and Sons Funeral Home , 35-20 Broadway , Astoria , Queens , on Monday , August 28th , 2006 , from 2 pm to 5 pm , and 7 pm to 9 pm .",
+        "triplets": [
+            {
+                "head": [
+                    "Astoria"
+                ],
+                "relation": "/location/neighborhood/neighborhood_of",
+                "tail": [
+                    "Queens"
+                ]
+            },
+            {
+                "head": [
+                    "Queens"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Astoria"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Funeral Mass to be held on Tuesday , August 29th , at 9:30 am , at Most Precious Blood Church , 32-52 36th St , Astoria , Queens .",
+        "triplets": [
+            {
+                "head": [
+                    "Astoria"
+                ],
+                "relation": "/location/neighborhood/neighborhood_of",
+                "tail": [
+                    "Queens"
+                ]
+            },
+            {
+                "head": [
+                    "Queens"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Astoria"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Tens of thousands of people lost power in pockets from Montclair , N.J. , to Astoria , Queens , to Stamford , Conn. , but all told the region 's power grid held up relatively well , and temperatures did not go as high as some forecasters had predicted .",
+        "triplets": [
+            {
+                "head": [
+                    "Queens"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Astoria"
+                ]
+            },
+            {
+                "head": [
+                    "Astoria"
+                ],
+                "relation": "/location/neighborhood/neighborhood_of",
+                "tail": [
+                    "Queens"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "None felt more put-upon than hundreds of residents and merchants in Astoria , Queens , who suffered through several days without power last month and lost power again yesterday when some overburdened lines caught fire .",
+        "triplets": [
+            {
+                "head": [
+                    "Astoria"
+                ],
+                "relation": "/location/neighborhood/neighborhood_of",
+                "tail": [
+                    "Queens"
+                ]
+            },
+            {
+                "head": [
+                    "Queens"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Astoria"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "22-25 Jackson Avenue , at 46th Avenue , Long Island City , Queens , ( 718 ) 784-2084 .",
+        "triplets": [
+            {
+                "head": [
+                    "Queens"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Long",
+                    "Island",
+                    "City"
+                ]
+            },
+            {
+                "head": [
+                    "Long",
+                    "Island",
+                    "City"
+                ],
+                "relation": "/location/neighborhood/neighborhood_of",
+                "tail": [
+                    "Queens"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Of the young American designers most embraced by retailers and celebrated in the fashion press in recent years , the roll call is almost exclusively male : Zac Posen , Marc Jacobs , Narciso Rodriguez and Mr. Som as well as Jack McCollough and Lazaro Hernandez of Proenza Schouler .",
+        "triplets": [
+            {
+                "head": [
+                    "Jack",
+                    "McCollough"
+                ],
+                "relation": "/business/person/company",
+                "tail": [
+                    "Proenza",
+                    "Schouler"
+                ]
+            },
+            {
+                "head": [
+                    "Proenza",
+                    "Schouler"
+                ],
+                "relation": "/business/company/founders",
+                "tail": [
+                    "Jack",
+                    "McCollough"
+                ]
+            },
+            {
+                "head": [
+                    "Lazaro",
+                    "Hernandez"
+                ],
+                "relation": "/business/person/company",
+                "tail": [
+                    "Proenza",
+                    "Schouler"
+                ]
+            },
+            {
+                "head": [
+                    "Proenza",
+                    "Schouler"
+                ],
+                "relation": "/business/company/founders",
+                "tail": [
+                    "Lazaro",
+                    "Hernandez"
+                ]
+            }
+        ]
+    },
+    {
+        "text": "At the Hotel on Rivington on Manhattan 's Lower East Side , the bathroom is not only visible from the bed , but the floor-to-ceiling windows allow neighbors on Delancey Street to spy into the shower -LRB- though the hotel will install a plastic film on the window on request -RRB- .",
+        "triplets": [
+            {
+                "head": [
+                    "Lower",
+                    "East",
+                    "Side"
+                ],
+                "relation": "/location/neighborhood/neighborhood_of",
+                "tail": [
+                    "Manhattan"
+                ]
+            },
+            {
+                "head": [
+                    "Manhattan"
+                ],
+                "relation": "/location/location/contains",
+                "tail": [
+                    "Lower",
+                    "East",
+                    "Side"
+                ]
+            }
+        ]
+    }
+]
