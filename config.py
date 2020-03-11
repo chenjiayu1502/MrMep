@@ -4,7 +4,7 @@ class NYT_Config:
     def __init__(self, conf):
         self.data_name = conf["data_name"]
         self.num_epochs = 100
-        self.batch_size = 500
+        self.batch_size = 50
         self.hidden_state_size=100
         self.learning_rate = 0.001
         self.data_dir="data/nyt_seq/"
@@ -20,6 +20,7 @@ class NYT_Config:
         self.max_decode_size = 16
         self.label_weight =  5
         self.head_num=4
+        self.train_flag=0
 
         self.model_name=conf["model_name"]
 
@@ -51,8 +52,8 @@ class WebNLG_Config:
         self.data_name = conf["data_name"]
         
         self.num_epochs = 151
-        self.batch_size = 100
-        self.hidden_state_size=300
+        self.batch_size = 50
+        self.hidden_state_size=100
 
         self.learning_rate = 0.001
         self.decay=0.95
@@ -65,12 +66,13 @@ class WebNLG_Config:
         self.words_id2vector_filename=self.data_dir+'words_id2vector_new_big.json'
 
         self.words_number= 5052
-        self.embedding_dim = 300
+        self.embedding_dim = 100
         self.num_classes = 2
         self.relation_num = 247
         self.max_decode_size = 8
         self.label_weight =  5
         self.head_num=4
+        self.train_flag=0
 
         self.model_name=conf["model_name"]
 
