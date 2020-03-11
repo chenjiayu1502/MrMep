@@ -31,7 +31,7 @@ def run_func():
     print(len(test))
    
 
-
+    
     encoder = Encoder(config.hidden_state_size)
     decoder = Decoder(config.hidden_state_size)
     cnn = CNN(config,is_training=True)
@@ -40,8 +40,9 @@ def run_func():
     sess = tf.Session()
     qa.initialize_model(sess, config.train_dir)
     qa.train(sess, [train, dev, test], config.train_dir,config)
-    # qa.train(sess, [train, dev], config.train_dir,config)
-
+    
+    
+    
 
 
 
