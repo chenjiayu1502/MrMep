@@ -11,7 +11,7 @@ import sys
 from six.moves import xrange  
 import tensorflow as tf
 from general_utils import Progbar
-from data_utils_for_opt import *
+from data_utils import *
 from collections import defaultdict as ddict
 
 
@@ -218,8 +218,8 @@ class Decoder(object):
         q = tf.stack(q, axis=1)
         
         return q
-    def separated_attention(self,encoded_passage, h, rel,config):
-        print("separated_attention")
+    def para_attention(self,encoded_passage, h, rel,config):
+        print("para_attention")
         input_size = h.get_shape().as_list()[1]
         matrix_p = tf.get_variable("Matrix_p", [input_size], dtype=h.dtype)
         matrix_r = tf.get_variable("Matrix_r", [input_size], dtype=h.dtype)
@@ -239,7 +239,8 @@ class Decoder(object):
 
 
         return logits,ct
-    def combined_attention(self,encoded_passage, h, rel,config):
+    def layer_attention(self,encoded_passage, h, rel,config):
+        print("layer_attention")
         with tf.variable_scope("attention_step") as scope:
             input_size = h.get_shape().as_list()[1]
             hh=h 
@@ -318,10 +319,10 @@ class Decoder(object):
             cell = tf.contrib.rnn.BasicLSTMCell(config.hidden_state_size, state_is_tuple = False)
 
             logits=[]
-            if config.model_name=="sep":
-                att=self.separated_attention
+            if config.model_name=="para":
+                att=self.para_attention
             else:
-                att=self.combined_attention
+                att=self.layer_attention
             for step in range(config.max_decode_size):
                 logit,inputs = att(encoded_passage, h, rel,config)
                 h,state = cell(inputs, state)
@@ -356,6 +357,8 @@ class QASystem(object):
     def __init__(self, encoder, decoder, cnn, config):
 
         # ==== set up logging ======
+        if not tf.gfile.Exists("log/"):
+            tf.gfile.MkDir("log/")
 
         logger = logging.getLogger("QASystemLogger")
         logger.setLevel(level = logging.INFO)
@@ -395,13 +398,13 @@ class QASystem(object):
         with tf.variable_scope("train_step") as scope:
             
 
-            learning_rate = self.config.learning_rate
-            self.train_op = tf.train.AdamOptimizer(learning_rate).minimize(self.loss)
+            # learning_rate = self.config.learning_rate
+            self.train_op = tf.train.AdamOptimizer(self.lr).minimize(self.loss)
 
         self.init = tf.global_variables_initializer()
 
 
-    def get_feed_dict(self, questions, contexts, answers, cnn_output, dropout_val):
+    def get_feed_dict(self, questions, contexts, answers, cnn_output, dropout_val, lr=0.001):
         """
         -arg questions: A list of list of ids representing the question sentence
         -arg contexts: A list of list of ids representing the context paragraph
@@ -424,7 +427,8 @@ class QASystem(object):
             self.labels : padded_answers,
             self.cnn_output : cnn_output,
             self.dropout : dropout_val,
-            self.weighted_loss : weighted_loss
+            self.weighted_loss : weighted_loss,
+            self.lr : lr
         }
 
         return feed
@@ -456,6 +460,7 @@ class QASystem(object):
 
         self.labels = tf.placeholder(tf.int64, shape = [None, self.config.max_decode_size], name = "gold_labels")
         self.dropout = tf.placeholder(tf.float32, shape=[], name = "dropout")
+        self.lr = tf.placeholder(tf.float32, shape=[], name = "lr")
 
     def setup_system(self):
         """
@@ -507,7 +512,7 @@ class QASystem(object):
 
         match_loss = losses
         cnn_pred = tf.cast(self.cnn_pred,dtype=tf.float32)
-        self.loss = 3.0*tf.reduce_mean(match_loss)+self.cnn_loss
+        self.loss = self.config.lambda_value*tf.reduce_mean(match_loss)+self.cnn_loss
 
     def initialize_model(self, session, train_dir):
         session.run(self.init)
@@ -541,7 +546,7 @@ class QASystem(object):
             _a_s2, _a_e2 = func(ypro, ypro2)
             res.append([_a_s, _a_e, _a_s2, _a_e2])
         return res
-    def evaluate_cnn(self, session, dataset, config, mode):
+    def evaluate(self, session, dataset, config, mode):
         q, c, a, co = zip(*[[_q, _c, _a, _co] for (_q, _c, _a, _co) in dataset])
         input_feed =  self.get_feed_dict(q, c, a, co, 1.0)
 
@@ -574,8 +579,6 @@ class QASystem(object):
         f=open(config.result_file,'w')
 
         for i in range(sample):
-            if i>100:
-                break
             res={'id':i,'content':[]}
             gold_match = json.loads(lines[i].strip())['data']
             
@@ -613,6 +616,8 @@ class QASystem(object):
             f.write(json.dumps(res)+'\n')
             pbar.set_description("pred: %s em_score:%s" % (str(pred),str(em_score)))
             pbar.update(1)
+
+            #break
         f.close()
         pbar.close()
 
@@ -642,7 +647,7 @@ class QASystem(object):
 
    
 
-    def run_epoch(self, session, train):
+    def run_epoch(self, session, train, lr):
         nbatches = int((len(train) + self.config.batch_size - 1) / self.config.batch_size)
         pbar = tqdm(total=nbatches)
         train_loss_list=[]
@@ -652,15 +657,15 @@ class QASystem(object):
         for i, (q_batch, c_batch, a_batch, co_batch) in enumerate(minibatches(train, self.config.batch_size)):
 
             # at training time, dropout needs to be on.
-            if i>3:
-                break
-            input_feed = self.get_feed_dict(q_batch, c_batch, a_batch, co_batch, self.config.dropout_val)
+            
+            input_feed = self.get_feed_dict(q_batch, c_batch, a_batch, co_batch, self.config.dropout_val, lr)
 
             _, train_loss,cnn_loss= session.run([self.train_op, self.loss, self.cnn_loss], feed_dict=input_feed)
             train_loss_list.append(train_loss)
             cnn_loss_list.append(cnn_loss)
             pbar.set_description("train loss: %s cnn_loss:%s" % (str(sum(train_loss_list)/len(train_loss_list)),str(sum(cnn_loss_list)/len(cnn_loss_list))))
             pbar.update(1)
+            
 
         pbar.close()
         return sum(train_loss_list)/len(train_loss_list)
@@ -671,36 +676,52 @@ class QASystem(object):
 
     def train(self, session, dataset, train_dir,config):
         
+        
+        if not tf.gfile.Exists("result/"):
+            tf.gfile.MkDir("result/")
+        if not tf.gfile.Exists("pkl/"):
+            tf.gfile.MkDir("pkl/")
         if not tf.gfile.Exists(train_dir):
             tf.gfile.MkDir(train_dir)
 
-
         train, dev, test = dataset
-        self.saver.restore(session,"%s/best_model.pkl" %train_dir)
-        f1 = self.evaluate_cnn(session, dev, config, 'dev')
-        f1 = self.evaluate_cnn(session, test, config, 'test')
+        
+        
+        best_em = 0.0
+        if config.train_flag:
+            self.saver.restore(session,"%s/best_model.pkl" %train_dir)
+            dev_f1 = self.evaluate_cnn(session, dev, config, 'dev')
+            f1 = self.evaluate_cnn(session, test, config, 'test')
 
-        print("#-----------Initial F1 on dev set: %5.4f ---------------#" %f1)
+            print("#-----------Initial F1 on dev set: %5.4f ---------------#" %dev_f1)
 
-        best_em = f1
-        # best_em = 0.0
-
+            best_em = dev_f1
+        
+        down_cnt=0
+        lr=self.config.learning_rate
         for epoch in xrange(self.config.num_epochs):
+            if epoch%20==0:
+                lr*=0.1
+            print('lr=',lr)
             print("\n*********************EPOCH: %d running %s*********************\n" %(epoch+1,config.data_name))
-            loss=self.run_epoch(session, train)
-            if epoch%2==1:
+            loss=self.run_epoch(session, train, lr)
+            if epoch%3==1:
 
-                dev_f1 = self.evaluate_cnn(session, dev, config, 'dev')
-                f1 = self.evaluate_cnn(session, test, config, 'test')
+                dev_f1 = self.evaluate(session, dev, config, 'dev')
+                f1 = self.evaluate(session, test, config, 'test')
                 self.logger.info('epoch:%d\tloss:%5.4f\tdev_f1:%5.4f\ttest_f1:%5.4f' %(epoch+1,loss,dev_f1,f1))
                 print("\n#-----------Exact match on dev set: %5.4f #-----------\n" %f1)
 
 
 
-                # if (em >= best_em):
-                #     self.saver.save(session, "%s/best_model.pkl" %train_dir)
-                #     print('saving to :'+train_dir+'/best_model.pkl')
-                #     best_em = em
-                # else:
-                #     print('lower=------',em,best_em)
+                if (dev_f1 >= best_em):
+                    down_cnt=0
+                    self.saver.save(session, "%s/best_model.pkl" %train_dir)
+                    print('saving to :'+train_dir+'/best_model.pkl')
+                    best_em = dev_f1
+                else:
+                    down_cnt+=1
+                    if dev_f1==0.0 or dev_f1<best_em-0.2:
+                        break
+                    print('lower=------',dev_f1,best_em)
 
