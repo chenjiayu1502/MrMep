@@ -23,12 +23,6 @@ Second, in file "config.py", "train_flag" can be set as "0", means that initiali
 
 Third, use the command as follows, and start training:
 
-mkdir pkl
-
-mkdir result
-
-mkdir log
-
 python main.py
 
 
